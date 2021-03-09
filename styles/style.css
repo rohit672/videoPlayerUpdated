@@ -1,0 +1,201 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+}
+
+.btn-light{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.contentBox{
+    height: 88%;
+    width: 96%;
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.videoBox{
+    height: 80%;
+    width: 70%;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-right: 2%;
+    display: inline-block;
+
+}
+
+.videoListBox{
+    height: 100%;
+    width: 28%;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0%;
+    display: inline-block;
+
+
+}
+
+
+.moduleTitle{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 800;
+    text-align: center;
+
+    opacity: 0.7;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    background-color: white;
+}
+
+.moduleTitle:hover{
+    opacity: 1;
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+    background-color: #2073d4;
+    color: white;
+}
+
+.videoTitle{
+    height: 89%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20%;
+    background-color: #fff;
+
+}
+
+.listOfVideos{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.videoItem{
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    font-size: 1.3rem;
+
+
+    opacity: 0.7;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    background-color: white;
+
+}
+
+.videoItem:hover{
+    opacity: 1;
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+    background-color: #2073d4;
+    color: #fff;
+}
+
+.imageBox{
+    height: 100%;
+    width: 15%;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+img{
+    padding-top: 5px;
+    height: 50px;
+    position: absolute;
+    padding-left: 5px;
+}
+
+.textBox{
+    height: 100%;
+    width: 83%;
+    display: inline-block;
+    /* margin-bottom: 5px; */
+    /* border: 1px solid green; */
+}
+
+
+
+
+
+
+
+
+.nextVideo{
+    right: 30%;
+    bottom: 10%;
+    position: absolute;
+
+    opacity: 0.9;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.nextVideo:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.askDoubt{
+    left: 0%;
+    bottom: 10%;
+    position: absolute;
+
+    opacity: 0.9;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.askDoubt:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.backToCourse{
+    opacity: 0.9;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+.backToCourse:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    background-color: #2073d4  !important;
+    color: white !important;
+}
